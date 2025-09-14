@@ -17,8 +17,8 @@ You are also given some `queries`, where `queries[j] = [Cj, Dj]` represents the 
 - Treat each **variable** `(like a, b, c)` as a **node** in a **graph**.
 
 > For an **equation** `a / b = k`:
-> - Create an **edge** from `a → b` with **weight** `k`.
-> - Create an **edge** from `b → a` with **weight** `1/k`.
+> - Create an **edge** from `a -> b` with **weight** `k`.
+> - Create an **edge** from `b -> a` with **weight** `1/k`.
 
 > For each **query (x / y)**, perform a **DFS traversal**:
 > - Start at `x`, try to reach `y`.
